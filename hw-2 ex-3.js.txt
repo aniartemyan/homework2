@@ -1,0 +1,20 @@
+// option 1
+
+for (var i = 1; i <= 10; i++) {
+  if(i % 2 == 0) {
+    console.log("even number = " +i);
+  } else {
+    continue;
+  }  
+}
+
+
+// option 2
+
+for (var i = 1; i <= 10; i++) {
+  if(i % 2 == 1) {
+    continue;
+  } else {
+    console.log("even number = " +i);
+  }  
+}

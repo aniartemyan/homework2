@@ -1,0 +1,11 @@
+for (var i = 1; i <= 12; i++) {
+  if (i <= 2 || i == 12) {
+    console.log(i + " is winter");
+  } else if (i <= 5) {
+      console.log(i + " is spring");
+    } else if (i <= 8) {
+        console.log(i + " is summer");
+      } else {
+        console.log(i + " is autumn");
+        }
+}
